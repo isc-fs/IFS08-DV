@@ -18,5 +18,5 @@ Repositorio para el departamento de [department] del IFS06 de la temporada 20XX/
     
 3. Clona este repositorio en tu ordenador utilizando las URLs:
     * SSH: 
-    * HTTPS:
+    * HTTPS: https://github.com/isc-fs/IFS08-DV.git
 

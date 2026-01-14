@@ -2,7 +2,7 @@
 
 ![ISC Logo](http://iscracingteam.com/wp-content/uploads/2022/03/Picture5.jpg)
 
-# IFS06 - [department]
+# IFS08 - Driverless
 
 Repositorio para el departamento de [department] del IFS06 de la temporada 20XX/20XX.
 

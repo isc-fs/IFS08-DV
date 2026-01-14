@@ -4,7 +4,7 @@
 
 # IFS08 - Driverless
 
-Repositorio para el departamento de [department] del IFS06 de la temporada 20XX/20XX.
+Repositorio para el departamento de Driverless del IFS08 de la temporada 2025/2026.
 
 ## Primeros pasos:
 1. Crea una cuenta en GitHub si aún no tienes una.

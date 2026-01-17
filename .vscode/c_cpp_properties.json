@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 H7",
+            "includePath": [
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "${workspaceFolder}/micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/microros_include",
+                "${workspaceFolder}/ROS2_interface",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_PWR_LDO_SUPPLY",
+                "USE_HAL_DRIVER",
+                "STM32H723xx"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "C:\\Users\\avela\\tools\\arm-gnu-toolchain-14-3-rel1-mingw-w64-x86_64-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+            // "compilerPath": "${env:ARMGCC_DIR}\\arm-none-eabi-gcc.exe", // por algún motivo no me va
+            "compilerArgs": [
+                "-mcpu=cortex-m7",
+                "-mthumb"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

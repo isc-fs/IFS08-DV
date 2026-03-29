@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000073] (control_gui) JobQueued: {'identifier': 'control_gui', 'dependencies': OrderedDict()}
+[0.000293] (control_gui) JobStarted: {'identifier': 'control_gui'}
+[0.104722] (-) TimerEvent: {}
+[0.209992] (-) TimerEvent: {}
+[0.315151] (-) TimerEvent: {}
+[0.420254] (-) TimerEvent: {}
+[0.525366] (-) TimerEvent: {}
+[0.630437] (-) TimerEvent: {}
+[0.683379] (control_gui) Command: {'cmd': ['/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/bin/python3.11', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/control_gui', 'build', '--build-base', '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build', 'install', '--record', '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui', 'env': {'STM32_PRG_PATH': '/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin', 'TERM_PROGRAM': 'Apple_Terminal', 'PROJ_DATA': '/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/share/proj', 'SHELL': '/bin/zsh', 'TERM': 'xterm-256color', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/nv/ys0093410_5ccv_nv4rr9nt80000gn/T/', 'CONDA_SHLVL': '2', 'CONDA_PROMPT_MODIFIER': '(ROS2)', 'TERM_PROGRAM_VERSION': '466', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install', 'ROS_VERSION': '2', 'TERM_SESSION_ID': '0CB90F37-C04E-4667-AC2A-9DC6D9073EF3', 'AMENT_PREFIX_PATH': '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2', '_CONDA_EXE': '/Users/carlosgaratemartin-ondarza/anaconda3/bin/conda', 'USER': 'carlosgaratemartin-ondarza', 'CONDA_EXE': '/Users/carlosgaratemartin-ondarza/anaconda3/bin/conda', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.quRVJcuWyG/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x8', 'ROS_OS_OVERRIDE': 'conda:osx', '_CE_CONDA': '', 'CONDA_PREFIX_1': '/Users/carlosgaratemartin-ondarza/anaconda3', 'PATH': '/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home/bin:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/bin:/Users/carlosgaratemartin-ondarza/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/etc/xml/catalog file:///etc/xml/catalog', 'CONDA_PREFIX': '/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2', '__CFBundleIdentifier': 'com.apple.Terminal', 'PWD': '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui', 'COLCON': '1', 'JAVA_HOME': '/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home', 'LANG': 'es_ES.UTF-8', 'XPC_FLAGS': '0x0', '_CONDA_ROOT': '/Users/carlosgaratemartin-ondarza/anaconda3', '_CE_M': '', 'XPC_SERVICE_NAME': '0', 'STM32CubeMX_PATH': '/Applications/STMicroelectronics/STM32CubeMX.app/Contents/Resources', 'SHLVL': '2', 'HOME': '/Users/carlosgaratemartin-ondarza', 'ROS_DISTRO': 'humble', 'HOMEBREW_PREFIX': '/opt/homebrew', 'PYTHONPATH': '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/prefix_override:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages:/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python311/site-packages:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages', 'CONDA_PYTHON_EXE': '/Users/carlosgaratemartin-ondarza/anaconda3/bin/python', 'LOGNAME': 'carlosgaratemartin-ondarza', 'CONDA_DEFAULT_ENV': 'ROS2', 'INFOPATH': '/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'ROS_LOCALHOST_ONLY': '0', 'OSLogRateLimit': '64', 'ROS_ETC_DIR': '/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/etc/ros', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[0.735451] (-) TimerEvent: {}
+[0.840488] (-) TimerEvent: {}
+[0.945592] (-) TimerEvent: {}
+[0.969987] (control_gui) StderrLine: {'line': b"/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.970152] (control_gui) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.025250] (control_gui) StdoutLine: {'line': b'running egg_info\n'}
+[1.049482] (control_gui) StdoutLine: {'line': b'creating build/control_gui/control_gui.egg-info\n'}
+[1.049539] (-) TimerEvent: {}
+[1.049912] (control_gui) StdoutLine: {'line': b'writing build/control_gui/control_gui.egg-info/PKG-INFO\n'}
+[1.050783] (control_gui) StdoutLine: {'line': b'writing dependency_links to build/control_gui/control_gui.egg-info/dependency_links.txt\n'}
+[1.051056] (control_gui) StdoutLine: {'line': b'writing entry points to build/control_gui/control_gui.egg-info/entry_points.txt\n'}
+[1.051322] (control_gui) StdoutLine: {'line': b'writing requirements to build/control_gui/control_gui.egg-info/requires.txt\n'}
+[1.051565] (control_gui) StdoutLine: {'line': b'writing top-level names to build/control_gui/control_gui.egg-info/top_level.txt\n'}
+[1.051822] (control_gui) StdoutLine: {'line': b"writing manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'\n"}
+[1.107687] (control_gui) StdoutLine: {'line': b"reading manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'\n"}
+[1.108767] (control_gui) StdoutLine: {'line': b"writing manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'\n"}
+[1.109041] (control_gui) StdoutLine: {'line': b'running build\n'}
+[1.109089] (control_gui) StdoutLine: {'line': b'running build_py\n'}
+[1.109979] (control_gui) StdoutLine: {'line': b'creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui\n'}
+[1.110573] (control_gui) StdoutLine: {'line': b'copying control_gui/__init__.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui\n'}
+[1.111017] (control_gui) StdoutLine: {'line': b'copying control_gui/control_gui.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui\n'}
+[1.113869] (control_gui) StdoutLine: {'line': b'running install\n'}
+[1.117082] (control_gui) StdoutLine: {'line': b'running install_lib\n'}
+[1.144763] (control_gui) StdoutLine: {'line': b'creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui\n'}
+[1.145007] (control_gui) StdoutLine: {'line': b'copying /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui/__init__.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui\n'}
+[1.145437] (control_gui) StdoutLine: {'line': b'copying /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui/control_gui.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui\n'}
+[1.146642] (control_gui) StdoutLine: {'line': b'byte-compiling /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui/__init__.py to __init__.cpython-311.pyc\n'}
+[1.147374] (control_gui) StdoutLine: {'line': b'byte-compiling /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui/control_gui.py to control_gui.cpython-311.pyc\n'}
+[1.149045] (control_gui) StdoutLine: {'line': b'running install_data\n'}
+[1.149135] (control_gui) StdoutLine: {'line': b'creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/ament_index/resource_index/packages\n'}
+[1.149640] (-) TimerEvent: {}
+[1.149935] (control_gui) StdoutLine: {'line': b'copying resource/control_gui -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/ament_index/resource_index/packages\n'}
+[1.150404] (control_gui) StdoutLine: {'line': b'creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/control_gui\n'}
+[1.150588] (control_gui) StdoutLine: {'line': b'copying package.xml -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/control_gui\n'}
+[1.151015] (control_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.179818] (control_gui) StdoutLine: {'line': b'Copying build/control_gui/control_gui.egg-info to /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui-0.0.0-py3.11.egg-info\n'}
+[1.183882] (control_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[1.241350] (control_gui) StdoutLine: {'line': b'Installing fake_and_gay script to /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/control_gui\n'}
+[1.242903] (control_gui) StdoutLine: {'line': b"writing list of installed files to '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/install.log'\n"}
+[1.251343] (-) TimerEvent: {}
+[1.255904] (control_gui) CommandEnded: {'returncode': 0}
+[1.277080] (control_gui) JobEnded: {'identifier': 'control_gui', 'rc': 0}
+[1.277731] (-) EventReactorShutdown: {}

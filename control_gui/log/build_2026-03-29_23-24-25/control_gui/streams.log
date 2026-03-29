@@ -1,0 +1,36 @@
+[0.684s] Invoking command in '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui': CONDA_PROMPT_MODIFIER=(ROS2) PYTHONPATH=/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/prefix_override:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8 /Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_gui build --build-base /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build install --record /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/install.log --single-version-externally-managed install_data
+[0.970s] /Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.970s]   warnings.warn(msg)
+[1.025s] running egg_info
+[1.049s] creating build/control_gui/control_gui.egg-info
+[1.050s] writing build/control_gui/control_gui.egg-info/PKG-INFO
+[1.050s] writing dependency_links to build/control_gui/control_gui.egg-info/dependency_links.txt
+[1.051s] writing entry points to build/control_gui/control_gui.egg-info/entry_points.txt
+[1.051s] writing requirements to build/control_gui/control_gui.egg-info/requires.txt
+[1.051s] writing top-level names to build/control_gui/control_gui.egg-info/top_level.txt
+[1.052s] writing manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'
+[1.107s] reading manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'
+[1.108s] writing manifest file 'build/control_gui/control_gui.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.110s] creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui
+[1.110s] copying control_gui/__init__.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui
+[1.111s] copying control_gui/control_gui.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui
+[1.114s] running install
+[1.117s] running install_lib
+[1.144s] creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui
+[1.145s] copying /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui/__init__.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui
+[1.145s] copying /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build/lib/control_gui/control_gui.py -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui
+[1.146s] byte-compiling /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui/__init__.py to __init__.cpython-311.pyc
+[1.147s] byte-compiling /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui/control_gui.py to control_gui.cpython-311.pyc
+[1.149s] running install_data
+[1.149s] creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/ament_index/resource_index/packages
+[1.150s] copying resource/control_gui -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/ament_index/resource_index/packages
+[1.150s] creating /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/control_gui
+[1.150s] copying package.xml -> /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/share/control_gui
+[1.151s] running install_egg_info
+[1.180s] Copying build/control_gui/control_gui.egg-info to /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages/control_gui-0.0.0-py3.11.egg-info
+[1.184s] running install_scripts
+[1.241s] Installing fake_and_gay script to /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/control_gui
+[1.243s] writing list of installed files to '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/install.log'
+[1.256s] Invoked command in '/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui' returned '0': CONDA_PROMPT_MODIFIER=(ROS2) PYTHONPATH=/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/prefix_override:/Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/install/control_gui/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8 /Users/carlosgaratemartin-ondarza/anaconda3/envs/ROS2/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/control_gui build --build-base /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/build install --record /Users/carlosgaratemartin-ondarza/ros2_crystal/control_gui/build/control_gui/install.log --single-version-externally-managed install_data

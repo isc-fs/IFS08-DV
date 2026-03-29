@@ -1,0 +1,2 @@
+[console_scripts]
+fake_and_gay = control_gui.control_gui:main
